@@ -1,0 +1,4 @@
+/ssh
+node_modules
+graphql_aws.pem
+.env

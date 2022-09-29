@@ -1,0 +1,30 @@
+{
+  "name": "cocktails-react-redux-graphql",
+  "version": "1.0.0",
+  "description": "gaphQl server for cocktails front end",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "nodemon ./server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViolettaRyabtsev/cocktails-react-redux-graphql-server.git"
+  },
+  "author": "violetta-ryabtsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViolettaRyabtsev/cocktails-react-redux-graphql-server/issues"
+  },
+  "homepage": "https://github.com/ViolettaRyabtsev/cocktails-react-redux-graphql-server#readme",
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "apollo-server-core": "^3.10.2",
+    "apollo-server-express": "^3.10.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node": "^18.9.0"
+  }
+}
